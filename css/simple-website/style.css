@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title h2 {
+    margin: 10px;
+    text-align: center;
+}
+
+img.about-img {
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.img-section {
+    padding: 30px;
+}
+
+.description {
+    padding: 30px;
+}
+
+.container {
+    padding: 30px 50px;
+}

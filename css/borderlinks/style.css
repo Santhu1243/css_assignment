@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #333;
+    padding: 15px 0;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: yellow;
+}
+
+.item-1 {
+    border: 1px solid white;
+}
+
+.item-2 {
+    border: 1px dotted white;
+}
+
+.item-3 {
+    border: 1px dashed white;
+}
+
+.item-4 {
+    border: 5px ridge white;
+}
+
+.item-5 {
+    border: 5px groove white;
+}
